@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   version="1.1"
+   id="svg9"
+   sodipodi:docname="svg.svg"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs9" />
+  <sodipodi:namedview
+     id="namedview9"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:zoom="9.85"
+     inkscape:cx="150"
+     inkscape:cy="99.340102"
+     inkscape:window-width="1974"
+     inkscape:window-height="1266"
+     inkscape:window-x="1848"
+     inkscape:window-y="375"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg9" />
+  <rect
+     width="50"
+     height="50"
+     x="0"
+     y="0"
+     id="rect1" />
+  <ellipse
+     cx="25"
+     cy="25"
+     rx="20"
+     ry="20"
+     fill="rgb(0,255,0)"
+     id="ellipse1" />
+  <rect
+     width="50"
+     height="50"
+     x="0"
+     y="60"
+     id="rect2" />
+  <ellipse
+     cx="25"
+     cy="85"
+     rx="20"
+     ry="20"
+     fill="rgb(0,255,0)"
+     id="ellipse2" />
+  <rect
+     width="50"
+     height="50"
+     x="0"
+     y="120"
+     id="rect3" />
+  <ellipse
+     cx="25"
+     cy="145"
+     rx="20"
+     ry="20"
+     fill="rgb(0,255,0)"
+     id="ellipse3" />
+  <rect
+     width="50"
+     height="50"
+     x="60"
+     y="0"
+     id="rect4" />
+  <ellipse
+     cx="85"
+     cy="25"
+     rx="20"
+     ry="20"
+     fill="rgb(0,255,0)"
+     id="ellipse4" />
+  <rect
+     width="50"
+     height="50"
+     x="60"
+     y="60"
+     id="rect5" />
+  <ellipse
+     cx="85"
+     cy="85"
+     rx="20"
+     ry="20"
+     fill="rgb(0,255,0)"
+     id="ellipse5" />
+  <rect
+     width="50"
+     height="50"
+     x="60"
+     y="120"
+     id="rect6" />
+  <ellipse
+     cx="85"
+     cy="145"
+     rx="20"
+     ry="20"
+     fill="rgb(0,255,0)"
+     id="ellipse6" />
+  <rect
+     width="50"
+     height="50"
+     x="120"
+     y="0"
+     id="rect7" />
+  <ellipse
+     cx="145"
+     cy="25"
+     fill="rgb(0,255,0)"
+     id="ellipse7"
+     ry="20"
+     rx="20" />
+  <rect
+     width="50"
+     height="50"
+     x="120"
+     y="60"
+     id="rect8" />
+  <ellipse
+     cx="145"
+     cy="85"
+     rx="20"
+     ry="20"
+     fill="rgb(0,255,0)"
+     id="ellipse8" />
+  <rect
+     width="50"
+     height="50"
+     x="120"
+     y="120"
+     id="rect9" />
+  <ellipse
+     cx="145"
+     cy="145"
+     rx="20"
+     ry="20"
+     fill="rgb(0,255,0)"
+     id="ellipse9" />
+</svg>

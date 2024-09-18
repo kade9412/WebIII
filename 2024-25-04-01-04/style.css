@@ -1,0 +1,24 @@
+/*animation: name duration timing-function delay iteration-count direction fill-mode;*/
+div{
+    
+    width: 90vw;
+    height: 50vh;
+
+}
+button{
+    margin: 20px;
+}
+svg:nth-child(odd) {
+    animation: spin 2s 1;
+}
+svg:nth-child(even) {
+    animation: spinreverse 2s 1 reverse;
+}
+@keyframes spin {
+    from {transform:rotate(0deg); scale: 0%;}
+     to {transform:rotate(360deg); scale: 100%;}
+ }
+ @keyframes spinreverse {
+    from {transform:rotate(0deg); scale: 100%;}
+     to {transform:rotate(360deg); scale: 0%;}
+ }
