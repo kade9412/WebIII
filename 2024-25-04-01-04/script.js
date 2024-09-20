@@ -96,36 +96,6 @@ function newWord() {
         x++;
     }
 }
-for (let letter of alphabet){
-    let size = 10;
-    const svgns = "http://www.w3.org/2000/svg";
-    let svg = document.createElementNS(svgns,"svg")   
-    svg.setAttribute("width", size * 10 + "px")
-    svg.setAttribute("height", size * 10 + "px")
-    
-    for(let y=0; y < letter.length; y++){
-        for(let x=0; x <letter[y].length; x++){
-            if(letter[y][x] === 1){
-                if(letter[y].length === 3){
-                    color = "yellow"
-                }else if (letter[y].length === 5){
-                    color = "orange"
-                }else{
-                    color = "blue"
-                }
-                let rect = document.createElementNS(svgns, "rect")
-                rect.setAttribute("width", size)
-                rect.setAttribute("height", size)
-                rect.setAttribute("x", x * size)
-                rect.setAttribute("y", y * size)
-                rect.setAttribute("fill", color)
-                rect.setAttribute("stroke", "black")
-                svg.appendChild(rect)
-            }    
-        }
-    }
-    canvas.appendChild(svg) 
-};
 btn.addEventListener('click', ()=>{    
     for(let i of newCanvas.children){
         const disappear = new KeyframeEffect(
