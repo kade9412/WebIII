@@ -1,7 +1,12 @@
 body{
-    color: white;
-    background-color: rgb(37 , 37, 37);
+background-color: #222;
+color:white;
 }
-svg{
-    border:1px solid white;
+button{
+font-size:1.5rem;
+height:2.5;
+}
+svg {
+border: 1px solid #222;
+
 }
