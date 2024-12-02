@@ -1,0 +1,37 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+div{
+    border: 0.063rem dashed black;
+}
+#Bigbox{
+    background-color: black;
+    padding:12rem;
+    height: 31.25rem;
+    width: 31.25rem;
+    border-radius: 31.25rem;
+}
+#Littlebox{
+    padding:3rem;
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
+    transform-origin: 15.625rem 15.625rem;
+    height: 6.25rem;
+    width: 6.25rem;
+    border-radius: 6.25rem;
+    
+    animation: spin 2s infinite linear;
+}
+@keyframes spin {
+    0% {
+        transform:rotate(0deg);
+        
+    }
+    100% {
+        transform:rotate(360deg);
+        
+        
+    }
+}

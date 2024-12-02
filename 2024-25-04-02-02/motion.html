@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Motion</title>
+    <Style>
+        #ball{
+            background-color: tomato;
+            height: 30px;
+            width:30px;
+            border-radius: 50%;
+            offset-path: path('M20,170 L100,20 L180,100 Z');
+            animation: moveBall 3s infinite;
+        }   
+        @keyframes moveBall{
+            100%{
+                offset-distance: 100%;
+            }
+        }
+    </Style>
+</head>
+<body>
+    <div id="ball"></div>
+</body>
+</html>

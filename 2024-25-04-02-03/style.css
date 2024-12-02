@@ -1,0 +1,26 @@
+body {
+    background-color: #496F5D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+path{
+    fill: transparent;
+    stroke: #8EA4D2;
+    stroke-width:1;
+    stroke-dasharray: 747.4750366210938;
+    stroke-dashoffset: 747.4750366210938;
+    animation: draw 3s infinite ease-in-out;
+}
+
+@keyframes draw{
+    0%{
+        stroke-dashoffset: 747.4750366210938;
+       
+    }
+    100%{
+        fill: #49516F;
+        stroke-dashoffset: 0;
+    }
+}
